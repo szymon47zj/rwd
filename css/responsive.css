@@ -1,0 +1,38 @@
+@media (max-width:1170px){
+	.container{
+		background-image: url(../img/man-2.jpg);
+		height: 70vh;
+	}
+	
+	.text{
+		top:10%;
+		right: 0;
+		padding: 20px;
+	}
+	
+	h3{
+		padding-top: 150px;
+	}	
+}
+
+@media (max-width:991px){
+	.container{
+		background-image: url(../img/man-1.jpg);
+		height: 50vh;
+	}
+	
+	.text{
+		top: 100%;
+		transform: translateY(1px);
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	
+	h2, h3{
+		color: #000;
+		text-align: center;
+		padding: 0 0 10px 0;
+	}
+}
+
